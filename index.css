@@ -19,3 +19,6 @@ text-align: center;
   background-color: #03A9F4;
   margin-top: 10px;
 }
+#add-new-todo:active{
+  box-shadow: 1px 1px 1px #90A4AE;
+}
