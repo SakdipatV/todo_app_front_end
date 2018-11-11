@@ -4,11 +4,12 @@ html{font-family:sans-serif;}
      color: #F44336;
   background-color: #F5F5F5;
   border-radius: 50px;
-  font-size: 14px;
+  font-size: 15px;
   padding: 5px 10px 5px 10px;
  }
-#add-new-todo{font-size:35px;
-text-align: center;
+#add-new-todo{
+    font-size:35px;
+  text-align: center;
   color: #FFF;
   outline: none;
   border-style: none;
@@ -21,4 +22,13 @@ text-align: center;
 }
 #add-new-todo:active{
   box-shadow: 1px 1px 1px #90A4AE;
+}
+li{
+    list-style-type: none;
+    color: black;
+}
+    
+li:hover{
+    color: blue;
+    background-color:white;
 }
